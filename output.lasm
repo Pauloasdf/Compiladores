@@ -1,0 +1,13 @@
+.START __main__
+
+.INIT 1 1 100 100
+
+.CODE
+
+DEF __main__:
+PUSH 0
+PUSH 25.0
+CALL MOVE
+
+HALT
+
